@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "test123",
+    "database": "demoData",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "test123",
+    "database": "demoData",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "test123",
+    "database": "demoData",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
