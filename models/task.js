@@ -1,3 +1,6 @@
+//@ Task Model
+
+
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Task = sequelize.define('Task', {

@@ -1,3 +1,5 @@
+//@ Context Model
+
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Context = sequelize.define('Context', {

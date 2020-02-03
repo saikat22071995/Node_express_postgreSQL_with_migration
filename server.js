@@ -7,6 +7,9 @@ const Sequelize=require('sequelize')
 const router=require('./config/routes')
 
 
+
+//@check if table existed or not ,if existed does not create or else create all tables.
+ 
 Models.sequelize.sync({
     force:false,
     logging:console.log
